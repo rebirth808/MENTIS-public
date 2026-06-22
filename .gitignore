@@ -1,0 +1,38 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+
+# Logs
+*.log
+logs/
+
+# Local/private state
+.mentis/
+.jarvis/
+.codex/
+.claude/
+.local/
+secrets/
+private/
+memory/
+
+# Build artifacts
+dist/
+build/
+coverage/
+.cache/
+tmp/
+temp/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
